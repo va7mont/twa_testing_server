@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 
 const token = '5588100521:AAFCVAEtRsqYjhOu7KagLTHV4zWP4ZsPTb4'
 const webAppUrl = 'https://golden-seahorse-600acc.netlify.app'
-const PORT = 8000
+const PORT = 5000
 
 const app = express()
 const bot = new TelegramBot(token, { polling: true })
